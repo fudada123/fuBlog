@@ -1,0 +1,122 @@
+body{
+    font-size: 15px;
+    /*padding-top: 50px;*/
+    background:url("https://view.moezx.cc/images/2018/01/03/sakura.png");
+}
+.articleBox{
+    height:140px;
+    width: 200px;
+    float: left;
+    margin:0 auto ;
+
+}
+#navbar{
+    border-radius: 5px ;
+    /*border:2px solid #000;*/
+    background-color: #feefe9;
+    height: 80px;
+    position:fixed;
+    z-index:999;
+}
+#navbar li{
+    float: left;
+}
+#navbar img{
+    width:150px;
+    height:60px;
+}
+/**/
+
+/**/
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 18px;
+    opacity: 0.75;
+
+    margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+}
+
+/**/
+
+/*关于文章的内容*/
+hr{
+
+}
+.discovery{
+
+}
+
+
+#box{
+    font-family: Ubuntu, sans-serif;
+
+    /*text-align: center;*/
+    /*border:1px solid #000;*/
+    display: block;
+    /*height: 1000px ;*/
+    background-color: #feefe9;
+
+}
+#firstBox~div{ /*选择一个元素之后的所有同级元素*/
+    margin-top: 10px;
+}
+
+.articleBox{
+    height: 240px;
+    border-radius: 5px ;
+    float: left;height:240px ;
+    box-shadow:5px 5px 5px 5px #444;
+    -moz-box-shadow:5px 5px 5px 5px #444;
+    -webkit-box-shadow:5px 5px 5px 5px#444;
+    padding:0px!important
+
+}
+.articleBoxText{
+    float: left;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.articleBoxImg{
+    float: left;
+    height:240px ;
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+     max-width: 100%;
+    /*box-shadow:10px 10px 5px #444;*/
+    /*-moz-box-shadow:10px 10px 5px #444;*/
+    /*-webkit-box-shadow:10px 10px 5px #444;*/
+}
+/*关于文章的内容*/
+
+/**/
+
+.moveTop{
+    margin-top: 80px;
+
+}
+.main-content{
+    /*border:1px solid #000;*/
+    margin-top: 80px;
+    background-color:#999999 ;
+}
+/**/
+
+
+.footer-meta{
+    margin-top: 11px;
+    background-color: #feefe9;
+    float: left;
+    height: 64px;
+    /*border:1px solid #000;*/
+
+}
